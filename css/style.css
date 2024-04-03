@@ -178,12 +178,24 @@ header .ham-burger.active span:nth-child(2){
   width: 100%;
   z-index: 100;
 }
+
+.swiper-button-next {
+  right: 50px;
+}
+.swiper-button-prev {
+  left: 50px;
+}
+.nav-btn::before,
+.nav-btn::after {
+  font-size: 25px;
+  color: #fff;
+}
 .swiper-pagination-bullet {
   opacity: 1;
   height: 12px;
   width: 12px;
   background-color: #fff;
-  visibility: hidden;
+  visibility: visible;
 }
 .swiper-pagination-bullet-active {
   border: 2px solid #fff;
